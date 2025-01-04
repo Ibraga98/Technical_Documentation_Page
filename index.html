@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav id="navbar">
+  <header>JavaScript Documentation</header>
+  <a class="nav-link" href="#Introduction">Introduction</a>
+  <a class="nav-link" href="#Variables">Variables</a>
+  <a class="nav-link" href="#Functions">Functions</a>
+  <a class="nav-link" href="#Loops">Loops</a>
+  <a class="nav-link" href="#Arrays">Arrays</a>
+</nav>
+
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <p>JavaScript is a versatile programming language primarily for web development.</p>
+    <p>It allows developers to create interactive and dynamic web pages.</p>
+    <p>Introduced in 1995, it has become a core technology of the World Wide Web.</p>
+    <code>console.log("Hello, World!");</code>
+  </section>
+
+  <section class="main-section" id="Variables">
+    <header>Variables</header>
+    <p>Variables are containers for storing data values in JavaScript.</p>
+    <p>You can declare variables using keywords such as <code>var</code>, <code>let</code>, or <code>const</code>.</p>
+    <p>Variables declared with <code>let</code> or <code>const</code> are block-scoped.</p>
+    <code>let x = 5;</code>
+    <ul>
+      <li><code>var</code>: Function-scoped and can be re-declared.</li>
+      <li><code>let</code>: Block-scoped and cannot be re-declared in the same scope.</li>
+      <li><code>const</code>: Block-scoped and cannot be re-assigned or re-declared.</li>
+    </ul>
+  </section>
+
+  <section class="main-section" id="Functions">
+    <header>Functions</header>
+    <p>Functions are blocks of code designed to perform specific tasks.</p>
+    <p>They are executed when invoked (called).</p>
+    <p>Functions can take parameters and return values.</p>
+    <code>function greet(name) { return `Hello, ${name}`; }</code>
+  </section>
+
+  <section class="main-section" id="Loops">
+    <header>Loops</header>
+    <p>Loops allow repetitive execution of a block of code.</p>
+    <p>JavaScript supports <code>for</code>, <code>while</code>, and <code>do...while</code> loops.</p>
+    <ul>
+      <li>The <code>for</code> loop runs a block of code a specific number of times.</li>
+      <li>The <code>while</code> loop runs as long as a condition is true.</li>
+      <li>The <code>do...while</code> loop runs at least once before checking the condition.</li>
+    </ul>
+    <code>for (let i = 0; i < 5; i++) { console.log(i); }</code>
+  </section>
+
+  <section class="main-section" id="Arrays">
+    <header>Arrays</header>
+    <p>Arrays are special variables that can hold multiple values in JavaScript.</p>
+    <p>Each value in an array is stored as an element and accessed using an index.</p>
+    <p>Arrays provide methods to manipulate and iterate through their elements.</p>
+    <code>let fruits = ["apple", "banana", "cherry"];</code>
+  </section>
+</main>
+</body>
+</html>
